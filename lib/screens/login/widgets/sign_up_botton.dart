@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:listworkanimation/screens/signup_screen.dart';
 
 class SignUpBotton extends StatelessWidget {
   @override
@@ -6,7 +7,9 @@ class SignUpBotton extends StatelessWidget {
     return FlatButton(
       padding: EdgeInsets.only(top: 160),
       onPressed: (){
-
+        Navigator.of(context).push(
+          MaterialPageRoute(builder: (context)=>SignUpScreen())
+        );
       },
       child: Text(
         "Não possui uma conta? Cadastre-se!",
@@ -16,7 +19,7 @@ class SignUpBotton extends StatelessWidget {
           fontWeight: FontWeight.w500,
           color: Colors.white,
           fontSize: 14,
-          letterSpacing: 0.5
+          letterSpacing: 0.5,
         ),
       ),
     );

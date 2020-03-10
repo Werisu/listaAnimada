@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "427590724206",
+    "firebase_url": "https://lista-animada.firebaseio.com",
+    "project_id": "lista-animada",
+    "storage_bucket": "lista-animada.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:427590724206:android:a7a0c79732b25f0bf7147f",
+        "android_client_info": {
+          "package_name": "br.com.enjuru.listworkanimation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "427590724206-1p8f1l9u97at7msj5gm3qjnpsm3rs2hd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAc_Trr2664jRwQYmZPYQrZBVlk-SAPDYY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "427590724206-1p8f1l9u97at7msj5gm3qjnpsm3rs2hd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
